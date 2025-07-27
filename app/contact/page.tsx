@@ -43,9 +43,9 @@ export default function Contact() {
             {/* Logo */}
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <Link href="/" className="text-2xl font-bold text-[#1e1e1e]">
-                  Blythewood HOA
-                </Link>
+                                  <Link href="/" className="text-2xl font-bold text-[#1e1e1e]">
+                    Stonington HOA
+                  </Link>
               </div>
             </div>
 
@@ -218,8 +218,8 @@ export default function Contact() {
                     <div>
                       <h3 className="text-lg font-semibold text-[#1e1e1e] mb-1">Address</h3>
                       <p className="text-[#1e1e1e]/70">
-                        Blythewood HOA Community<br />
-                        Blythewood, South Carolina 29016
+                                               Stonington HOA Community<br />
+                       Blythewood, South Carolina 29016
                       </p>
                     </div>
                   </div>
@@ -233,9 +233,9 @@ export default function Contact() {
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold text-[#1e1e1e] mb-1">Email</h3>
-                      <a href="mailto:info@blythewoodhoa.com" className="text-[#819067] hover:text-[#6b7a4f] transition-colors">
-                        info@blythewoodhoa.com
-                      </a>
+                                             <a href="mailto:info@stoningtonhoa.com" className="text-[#819067] hover:text-[#6b7a4f] transition-colors">
+                         info@stoningtonhoa.com
+                       </a>
                     </div>
                   </div>
 
@@ -296,7 +296,7 @@ export default function Contact() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8">
             <div>
-              <h3 className="text-2xl font-bold mb-4">Blythewood HOA</h3>
+                             <h3 className="text-2xl font-bold mb-4">Stonington HOA</h3>
               <p className="text-gray-300">
                 Creating a beautiful and welcoming community in the heart of South Carolina.
               </p>
@@ -312,14 +312,14 @@ export default function Contact() {
             <div>
               <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
               <div className="space-y-2 text-gray-300">
-                <p>Blythewood, South Carolina</p>
-                <p>Email: info@blythewoodhoa.com</p>
+                                 <p>Blythewood, South Carolina</p>
+                 <p>Email: info@stoningtonhoa.com</p>
                 <p>Phone: (803) 555-0123</p>
               </div>
             </div>
           </div>
           <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-300">
-            <p>&copy; 2024 Blythewood HOA. All rights reserved.</p>
+                             <p>&copy; 2024 Stonington HOA. All rights reserved.</p>
           </div>
         </div>
       </footer>

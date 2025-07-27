@@ -17,7 +17,7 @@ export default function Home() {
             <div className="flex items-center">
               <div className="flex-shrink-0">
                 <h1 className="text-2xl font-bold text-[#1e1e1e]">
-                  Blythewood HOA
+                  Stonington HOA
                 </h1>
               </div>
             </div>
@@ -100,7 +100,7 @@ export default function Home() {
               <div className="space-y-4">
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#1e1e1e] leading-tight">
                   Welcome to{' '}
-                  <span className="text-[#819067]">Blythewood</span>
+                  <span className="text-[#819067]">Stonington</span>
                 </h1>
                 <p className="text-xl sm:text-2xl text-[#1e1e1e]/80 leading-relaxed">
                   A premier HOA community in the heart of South Carolina, where neighbors become family and every day feels like home.
@@ -154,7 +154,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold text-[#1e1e1e] mb-4">
-              Why Choose Stonington, Blythewood HOA?
+              Why Choose Stonington HOA?
             </h2>
             <p className="text-xl text-[#1e1e1e]/70 max-w-3xl mx-auto">
               Our community offers exceptional amenities and a welcoming environment for families of all sizes.
@@ -211,7 +211,7 @@ export default function Home() {
             Ready to Join Our Community?
           </h2>
           <p className="text-xl text-[#1e1e1e]/70 mb-8">
-            Discover why families choose Stonington, Blythewood HOA for their perfect home. Contact us today to learn more about available properties and community benefits.
+            Discover why families choose Stonington HOA for their perfect home. Contact us today to learn more about available properties and community benefits.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
                          <button className="bg-[#819067] text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-[#6b7a4f] transition-all duration-300 transform hover:scale-105 shadow-lg cursor-pointer">
@@ -229,7 +229,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8">
             <div>
-              <h3 className="text-2xl font-bold mb-4">Stonington, Blythewood HOA</h3>
+              <h3 className="text-2xl font-bold mb-4">Stonington HOA</h3>
               <p className="text-gray-300">
                 Creating a beautiful and welcoming community in the heart of South Carolina.
               </p>
@@ -247,13 +247,13 @@ export default function Home() {
               <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
               <div className="space-y-2 text-gray-300">
                 <p>Blythewood, South Carolina</p>
-                <p>Email: info@blythewoodhoa.com</p>
+                <p>Email: info@stoningtonhoa.com</p>
                 <p>Phone: (803) 555-0123</p>
               </div>
             </div>
           </div>
           <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-300">
-            <p>&copy; 2024 Blythewood HOA. All rights reserved.</p>
+                            <p>&copy; 2025 Stonington HOA. All rights reserved.</p>
           </div>
         </div>
       </footer>

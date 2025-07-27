@@ -8,8 +8,8 @@ const urbanist = Urbanist({
 });
 
 export const metadata: Metadata = {
-  title: "Stonington, Blythewood HOA Community",
-  description: "Welcome to the Stonington, Blythewood HOA Community in South Carolina. Discover our beautiful neighborhood and community amenities.",
+  title: "Stonington HOA Community",
+  description: "Welcome to the Stonington HOA Community in South Carolina. Discover our beautiful neighborhood and community amenities.",
   icons: {
     icon: [
       { url: '/favicon-16.ico', sizes: '16x16', type: 'image/x-icon' },

@@ -14,28 +14,28 @@ export default function Team() {
 
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
       description: "Leading our community with dedication and vision, ensuring every resident feels at home.",
-      email: "president@blythewoodhoa.com"
+      email: "president@stoningtonhoa.com"
     },
     {
       name: "Vinita Leedom",
       position: "Vice President",
       image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=400&h=400&fit=crop&crop=face",
       description: "Supporting community initiatives and fostering strong relationships between neighbors.",
-      email: "vicepresident@blythewoodhoa.com"
+      email: "vicepresident@stoningtonhoa.com"
     },
     {
       name: "Aprill Yakubu",
       position: "Secretary",
       image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face",
       description: "Keeping our community informed and organized with clear communication and attention to detail.",
-      email: "secretary@blythewoodhoa.com"
+      email: "secretary@stoningtonhoa.com"
     },
     {
       name: "Timmy Neesmith",
       position: "Treasurer",
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
       description: "Managing our community's financial health with transparency and responsible stewardship.",
-      email: "treasurer@blythewoodhoa.com"
+      email: "treasurer@stoningtonhoa.com"
     }
   ];
 
@@ -48,9 +48,9 @@ export default function Team() {
             {/* Logo */}
             <div className="flex items-center">
                              <div className="flex-shrink-0">
-                 <Link href="/" className="text-2xl font-bold text-[#1e1e1e]">
-                   Blythewood HOA
-                 </Link>
+                                   <Link href="/" className="text-2xl font-bold text-[#1e1e1e]">
+                    Stonington HOA
+                  </Link>
                </div>
             </div>
 
@@ -132,8 +132,8 @@ export default function Team() {
               <span className="text-[#819067]">us</span>
             </h1>
             <p className="text-xl sm:text-2xl text-[#1e1e1e]/80 leading-relaxed max-w-4xl mx-auto">
-              Meet the dedicated team of volunteers who work tirelessly to maintain the beauty, 
-              harmony, and quality of life in our Blythewood HOA community.
+                             Meet the dedicated team of volunteers who work tirelessly to maintain the beauty, 
+               harmony, and quality of life in our Stonington HOA community.
             </p>
           </div>
 
@@ -181,7 +181,7 @@ export default function Team() {
               Want to Get Involved?
             </h2>
             <p className="text-lg text-[#1e1e1e]/70 mb-8 max-w-2xl mx-auto">
-              Our community thrives on active participation. Join us in making Blythewood an even better place to live.
+                             Our community thrives on active participation. Join us in making Stonington an even better place to live.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="bg-[#819067] text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-[#6b7a4f] transition-all duration-300 transform hover:scale-105 shadow-lg cursor-pointer">
@@ -200,7 +200,7 @@ export default function Team() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8">
             <div>
-              <h3 className="text-2xl font-bold mb-4">Blythewood HOA</h3>
+                             <h3 className="text-2xl font-bold mb-4">Stonington HOA</h3>
               <p className="text-gray-300">
                 Creating a beautiful and welcoming community in the heart of South Carolina.
               </p>
@@ -218,14 +218,14 @@ export default function Team() {
             <div>
               <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
               <div className="space-y-2 text-gray-300">
-                <p>Blythewood, South Carolina</p>
-                <p>Email: info@blythewoodhoa.com</p>
+                                 <p>Blythewood, South Carolina</p>
+                 <p>Email: info@stoningtonhoa.com</p>
                 <p>Phone: (803) 555-0123</p>
               </div>
             </div>
           </div>
           <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-300">
-            <p>&copy; 2024 Blythewood HOA. All rights reserved.</p>
+                             <p>&copy; 2024 Stonington HOA. All rights reserved.</p>
           </div>
         </div>
       </footer>

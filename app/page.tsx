@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -27,16 +28,19 @@ export default function Home() {
                 <a href="#home" className="text-[#1e1e1e] hover:text-[#819067] px-3 py-2 text-sm font-medium transition-colors duration-200">
                   Home
                 </a>
-                <a href="#about" className="text-[#1e1e1e] hover:text-[#819067] px-3 py-2 text-sm font-medium transition-colors duration-200">
+                {/* <a href="#about" className="text-[#1e1e1e] hover:text-[#819067] px-3 py-2 text-sm font-medium transition-colors duration-200">
                   About
                 </a>
                 <a href="#amenities" className="text-[#1e1e1e] hover:text-[#819067] px-3 py-2 text-sm font-medium transition-colors duration-200">
                   Amenities
+                </a> */}
+                <a href="/team" className="text-[#1e1e1e] hover:text-[#819067] px-3 py-2 text-sm font-medium transition-colors duration-200">
+                  Team
                 </a>
-                <a href="#contact" className="text-[#1e1e1e] hover:text-[#819067] px-3 py-2 text-sm font-medium transition-colors duration-200">
+                <Link href="/contact" className="text-[#1e1e1e] hover:text-[#819067] px-3 py-2 text-sm font-medium transition-colors duration-200">
                   Contact
-                </a>
-                <button className="bg-[#819067] text-white px-6 py-2 rounded-full text-sm font-medium hover:bg-[#6b7a4f] transition-colors duration-200">
+                </Link>
+                <button className="bg-[#819067] text-white px-6 py-2 rounded-full text-sm font-medium hover:bg-[#6b7a4f] transition-colors duration-200 cursor-pointer">
                   Join Community
                 </button>
               </div>
@@ -66,16 +70,19 @@ export default function Home() {
                 <a href="#home" className="text-[#1e1e1e] hover:text-[#819067] block px-3 py-2 text-base font-medium transition-colors duration-200">
                   Home
                 </a>
-                <a href="#about" className="text-[#1e1e1e] hover:text-[#819067] block px-3 py-2 text-base font-medium transition-colors duration-200">
+                {/* <a href="#about" className="text-[#1e1e1e] hover:text-[#819067] block px-3 py-2 text-base font-medium transition-colors duration-200">
                   About
                 </a>
                 <a href="#amenities" className="text-[#1e1e1e] hover:text-[#819067] block px-3 py-2 text-base font-medium transition-colors duration-200">
                   Amenities
+                </a> */}
+                <a href="/team" className="text-[#1e1e1e] hover:text-[#819067] block px-3 py-2 text-base font-medium transition-colors duration-200">
+                  Team
                 </a>
-                <a href="#contact" className="text-[#1e1e1e] hover:text-[#819067] block px-3 py-2 text-base font-medium transition-colors duration-200">
+                <Link href="/contact" className="text-[#1e1e1e] hover:text-[#819067] block px-3 py-2 text-base font-medium transition-colors duration-200">
                   Contact
-                </a>
-                <button className="w-full bg-[#819067] text-white px-6 py-2 rounded-full text-sm font-medium hover:bg-[#6b7a4f] transition-colors duration-200 mt-4">
+                </Link>
+                <button className="w-full bg-[#819067] text-white px-6 py-2 rounded-full text-sm font-medium hover:bg-[#6b7a4f] transition-colors duration-200 mt-4 cursor-pointer">
                   Join Community
                 </button>
               </div>
@@ -108,10 +115,10 @@ export default function Home() {
                 </p>
                 
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <button className="bg-[#819067] text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-[#6b7a4f] transition-all duration-300 transform hover:scale-105 shadow-lg">
+                  <button className="bg-[#819067] text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-[#6b7a4f] transition-all duration-300 transform hover:scale-105 shadow-lg cursor-pointer">
                     Explore Our Community
                   </button>
-                  <button className="border-2 border-[#819067] text-[#819067] px-8 py-4 rounded-full text-lg font-semibold hover:bg-[#819067] hover:text-white transition-all duration-300">
+                  <button className="border-2 border-[#819067] text-[#819067] px-8 py-4 rounded-full text-lg font-semibold hover:bg-[#819067] hover:text-white transition-all duration-300 cursor-pointer">
                     View Amenities
                   </button>
                 </div>
@@ -207,10 +214,10 @@ export default function Home() {
             Discover why families choose Blythewood HOA for their perfect home. Contact us today to learn more about available properties and community benefits.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-[#819067] text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-[#6b7a4f] transition-all duration-300 transform hover:scale-105 shadow-lg">
+                         <button className="bg-[#819067] text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-[#6b7a4f] transition-all duration-300 transform hover:scale-105 shadow-lg cursor-pointer">
               Contact Us Today
             </button>
-            <button className="border-2 border-[#819067] text-[#819067] px-8 py-4 rounded-full text-lg font-semibold hover:bg-[#819067] hover:text-white transition-all duration-300">
+                         <button className="border-2 border-[#819067] text-[#819067] px-8 py-4 rounded-full text-lg font-semibold hover:bg-[#819067] hover:text-white transition-all duration-300 cursor-pointer">
               Schedule a Tour
             </button>
           </div>
@@ -233,7 +240,7 @@ export default function Home() {
                 <li><a href="#home" className="hover:text-[#819067] transition-colors">Home</a></li>
                 <li><a href="#about" className="hover:text-[#819067] transition-colors">About</a></li>
                 <li><a href="#amenities" className="hover:text-[#819067] transition-colors">Amenities</a></li>
-                <li><a href="#contact" className="hover:text-[#819067] transition-colors">Contact</a></li>
+                <li><Link href="/contact" className="hover:text-[#819067] transition-colors">Contact</Link></li>
               </ul>
             </div>
             <div>

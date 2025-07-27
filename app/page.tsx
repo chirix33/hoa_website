@@ -154,7 +154,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold text-[#1e1e1e] mb-4">
-              Why Choose Blythewood HOA?
+              Why Choose Stonington, Blythewood HOA?
             </h2>
             <p className="text-xl text-[#1e1e1e]/70 max-w-3xl mx-auto">
               Our community offers exceptional amenities and a welcoming environment for families of all sizes.
@@ -211,7 +211,7 @@ export default function Home() {
             Ready to Join Our Community?
           </h2>
           <p className="text-xl text-[#1e1e1e]/70 mb-8">
-            Discover why families choose Blythewood HOA for their perfect home. Contact us today to learn more about available properties and community benefits.
+            Discover why families choose Stonington, Blythewood HOA for their perfect home. Contact us today to learn more about available properties and community benefits.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
                          <button className="bg-[#819067] text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-[#6b7a4f] transition-all duration-300 transform hover:scale-105 shadow-lg cursor-pointer">
@@ -229,7 +229,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8">
             <div>
-              <h3 className="text-2xl font-bold mb-4">Blythewood HOA</h3>
+              <h3 className="text-2xl font-bold mb-4">Stonington, Blythewood HOA</h3>
               <p className="text-gray-300">
                 Creating a beautiful and welcoming community in the heart of South Carolina.
               </p>

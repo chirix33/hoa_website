@@ -8,8 +8,18 @@ const urbanist = Urbanist({
 });
 
 export const metadata: Metadata = {
-  title: "Blythewood HOA Community",
-  description: "Welcome to the Blythewood HOA Community in South Carolina. Discover our beautiful neighborhood and community amenities.",
+  title: "Stonington, Blythewood HOA Community",
+  description: "Welcome to the Stonington, Blythewood HOA Community in South Carolina. Discover our beautiful neighborhood and community amenities.",
+  icons: {
+    icon: [
+      { url: '/favicon.ico' },
+      { url: '/icon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/icon-32x32.png', sizes: '32x32', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+  },
 };
 
 export default function RootLayout({

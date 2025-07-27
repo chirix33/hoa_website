@@ -9,7 +9,7 @@ export default function Team() {
 
   const teamMembers = [
     {
-      name: "John",
+      name: "John Boswell",
       position: "President",
 
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
@@ -17,21 +17,21 @@ export default function Team() {
       email: "president@blythewoodhoa.com"
     },
     {
-      name: "Aprill Pedigrew",
+      name: "Vinita Leedom",
       position: "Vice President",
       image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=400&h=400&fit=crop&crop=face",
       description: "Supporting community initiatives and fostering strong relationships between neighbors.",
       email: "vicepresident@blythewoodhoa.com"
     },
     {
-      name: "Someone Else",
+      name: "Aprill Yakubu",
       position: "Secretary",
       image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face",
       description: "Keeping our community informed and organized with clear communication and attention to detail.",
       email: "secretary@blythewoodhoa.com"
     },
     {
-      name: "Another Person",
+      name: "Timmy Neesmith",
       position: "Treasurer",
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
       description: "Managing our community's financial health with transparency and responsible stewardship.",
